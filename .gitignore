@@ -1,0 +1,14 @@
+dein
+tags*
+.netrwhist
+pythonpath.vim
+nodepath.vim
+autoload/plugged/*
+paths.vim
+session
+wiki/
+coc/*
+!coc/extensions
+coc/extensions/*
+!coc/extensions/db.json
+!coc/extensions/package.json
