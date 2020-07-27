@@ -212,31 +212,31 @@ let g:which_key_map.z = {
       \ 'u' : ['vimspector#StepOut()'                              , 'step out'],
       \ }
 
-" Global
-Plug 'vimwiki/VimwikiIndex'
-Plug 'vimwiki/VimwikiTabIndex'
-Plug 'vimwiki/vimwikiuiselect'
-Plug 'vimwiki/vimwikidiaryindex'
-Plug 'vimwiki/vimwikimakediarynote'
-Plug 'vimwiki/vimwikitabmakediarynote'
-Plug 'vimwiki/vimwikimakeyesterdaydiarynote'
-Plug 'vimwiki/vimwikimaketomorrowdiarynote'
-
-" Local
-Plug 'vimwiki/Vimwiki2HTML'
-Plug 'vimwiki/Vimwiki2HTMLBrowse'
-Plug 'vimwiki/VimwikiDiaryGenerateLinks'
-Plug 'vimwiki/VimwikiFollowLink'
-Plug 'vimwiki/VimwikiSplitLink'
-Plug 'vimwiki/VimwikiVSplitLink'
-Plug 'vimwiki/VimwikiTabnewLink'
-Plug 'vimwiki/VimwikiGoBackLink'
-Plug 'vimwiki/VimwikiNextLink'
-Plug 'vimwiki/VimwikiPrevLink'
-Plug 'vimwiki/VimwikiGoto'
-Plug 'vimwiki/VimwikiDeleteLink'
-Plug 'vimwiki/VimwikiRenameLink'
-Plug 'vimwiki/VimwikiAddHeaderLevel'
+"" Global
+"Plug 'vimwiki/VimwikiIndex'
+"Plug 'vimwiki/VimwikiTabIndex'
+"Plug 'vimwiki/vimwikiuiselect'
+"Plug 'vimwiki/vimwikidiaryindex'
+"Plug 'vimwiki/vimwikimakediarynote'
+"Plug 'vimwiki/vimwikitabmakediarynote'
+"Plug 'vimwiki/vimwikimakeyesterdaydiarynote'
+"Plug 'vimwiki/vimwikimaketomorrowdiarynote'
+"
+"" Local
+"Plug 'vimwiki/Vimwiki2HTML'
+"Plug 'vimwiki/Vimwiki2HTMLBrowse'
+"Plug 'vimwiki/VimwikiDiaryGenerateLinks'
+"Plug 'vimwiki/VimwikiFollowLink'
+"Plug 'vimwiki/VimwikiSplitLink'
+"Plug 'vimwiki/VimwikiVSplitLink'
+"Plug 'vimwiki/VimwikiTabnewLink'
+"Plug 'vimwiki/VimwikiGoBackLink'
+"Plug 'vimwiki/VimwikiNextLink'
+"Plug 'vimwiki/VimwikiPrevLink'
+"Plug 'vimwiki/VimwikiGoto'
+"Plug 'vimwiki/VimwikiDeleteLink'
+"Plug 'vimwiki/VimwikiRenameLink'
+"Plug 'vimwiki/VimwikiAddHeaderLevel'
 Plug 'francoisabrol/ranger.vim'
 
 " Register which key map

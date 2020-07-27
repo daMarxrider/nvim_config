@@ -7,12 +7,8 @@ autoload/plugged/*
 paths.vim
 session
 wiki/
-<<<<<<< HEAD
 coc/*
 !coc/extensions
 coc/extensions/*
 !coc/extensions/db.json
 !coc/extensions/package.json
-=======
-
->>>>>>> 646e683157fb2062e947a05f040a8f349df35bc6
