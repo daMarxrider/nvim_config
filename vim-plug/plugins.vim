@@ -25,7 +25,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'airblade/vim-rooter'
   " auto set indent settings
   Plug 'tpope/vim-sleuth'
-  Plug 'puremourning/vimspector'
   Plug 'OmniSharp/omnisharp-vim'
 
   if exists('g:vscode')
@@ -100,10 +99,10 @@ Plug 'junegunn/fzf.vim'
 	Plug 'othree/eregex.vim'
 	Plug 'rishihahs/vim-youtube'
 	Plug 'nvie/vim-flake8'
-    " Vim Wiki
-    " Plug 'https://github.com/vimwiki/vimwiki.git'
-	Plug 'othree/eregex.vim'
-	Plug 'puremourning/vimspector.vim'
+  " Vim Wiki
+   "Plug 'https://github.com/vimwiki/vimwiki.git'
+      Plug 'othree/eregex.vim'
+      Plug 'puremourning/vimspector.vim'
   endif
 
 

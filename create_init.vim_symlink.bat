@@ -1,4 +1,4 @@
-pip install pynvim neovim-remote mps-youtube python-language-server
+pip install pynvim neovim-remote mps-youtube python-language-server yapf
 npm i -g neovim bash-language-server ctags
 mkdir C:\win_extensions
 set PATH=%PATH%;C:\win_extensions\
