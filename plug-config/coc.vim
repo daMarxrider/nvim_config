@@ -11,6 +11,7 @@
     \ 'coc-emoji',
     \ 'coc-cssmodules',
     \ 'coc-yaml',
+    \ 'coc-python',
     \ 'coc-explorer',
     \ 'coc-svg',
     \ 'coc-prettier',
