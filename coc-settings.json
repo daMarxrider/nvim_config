@@ -1,74 +1,74 @@
 {
-    "suggest.completionItemKindLabels": {
-        "text": "t",
-        "method": "m",
-        "function": "f"
-    },
+	"suggest.completionItemKindLabels": {
+		"text": "t",
+		"method": "m",
+		"function": "f"
+	},
 
-    // diagnostics
-    "diagnostic.errorSign": "e",
-    "diagnostic.warningSign": "w",
-    "diagnostic.infoSign": "i",
-    "diagnostic.hintSign": "h",
-    "diagnostic.virtualText": true, // this won't work with codelens when error on same line
+	// diagnostics
+	"diagnostic.errorSign": "e",
+	"diagnostic.warningSign": "w",
+	"diagnostic.infoSign": "i",
+	"diagnostic.hintSign": "h",
+	"diagnostic.virtualText": true, // this won't work with codelens when error on same line
 
-    // "diagnostic.displayByAle": true,
+	// "diagnostic.displayByAle": true,
 
-    // codelens TODO what does this get me?
-    // "codeLens.enable": true,
+	// codelens TODO what does this get me?
+	// "codeLens.enable": true,
 
-    // list
-    "list.indicator": ">",
-    "list.selectedSignText": " ",
+	// list
+	"list.indicator": ">",
+	"list.selectedSignText": " ",
 
-    // autoformat
-    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml", "json", "python"],
-    "coc.preferences.hoverTarget": "float",
-    "coc.preferences.printWidth": 140,
+	// autoformat
+	"coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml", "json", "python", "typescript"],
+	"coc.preferences.hoverTarget": "float",
+	"coc.preferences.printWidth": 140,
 
-    // snippets
-    "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
-    //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+	// snippets
+	"snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+	//"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 
-    // emmet
-    "emmet.includeLanguages": {
-        "vue-html": "html",
-        "javascript": "javascriptreact"
-    },
+	// emmet
+	"emmet.includeLanguages": {
+		"vue-html": "html",
+		"javascript": "javascriptreact"
+	},
 
-    // prettier
-    "prettier.tabWidth": 4,
-    "prettier.printWidth": 140,
-    "prettier.useTabs": true,
+	// prettier
+	"prettier.tabWidth": 4,
+	"prettier.printWidth": 140,
+	"prettier.useTabs": true,
 
-    "python.pythonPath": "C:/Python38/python.exe",
-    // python
-    "python.linting.enabled": true,
-    "python.setLinter": "flake8",
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": ["--config=C:/USERS/USER/.config/nvim/utils/flake8.json"],
-    "python.formatting.provider": "yapf",
+	"python.pythonPath": "C:/Python38/python.exe",
+	// python
+	"python.linting.enabled": true,
+	"python.setLinter": "flake8",
+	"python.linting.pylintEnabled": false,
+	"python.linting.flake8Enabled": true,
+	"python.linting.flake8Args": ["--config=C:/USERS/USER/.config/nvim/utils/flake8.json"],
+	"python.formatting.provider": "yapf",
 
-    // explorer
-    "explorer.width": 30,
-    "explorer.icon.enableNerdfont": true,
-    "explorer.previewAction.onHover": false,
-    "explorer.icon.enableVimDevicons": false,
-    "explorer.keyMappings": {
-        "<cr>": ["expandable?", "expand", "open"],
-        "v": "open:vsplit"
-    },
+	// explorer
+	"explorer.width": 30,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.previewAction.onHover": false,
+	"explorer.icon.enableVimDevicons": false,
+	"explorer.keyMappings": {
+		"<cr>": ["expandable?", "expand", "open"],
+		"v": "open:vsplit"
+	},
 
-    "languageserver": {
-        "bash": {
-            "command": "bash-language-server",
-            "args": ["start"],
-            "filetypes": ["sh"],
-            "ignoredRootPaths": ["~"]
-        }
-    }
+	"languageserver": {
+		"bash": {
+			"command": "bash-language-server",
+			"args": ["start"],
+			"filetypes": ["sh"],
+			"ignoredRootPaths": ["~"]
+		}
+	}
 
-    // TODO b:coc_suggest_disable=1 GOYO
-    // TODO add to paths.vim g:coc_node_path
+	// TODO b:coc_suggest_disable=1 GOYO
+	// TODO add to paths.vim g:coc_node_path
 }
