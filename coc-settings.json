@@ -39,8 +39,9 @@
     // prettier
     "prettier.tabWidth": 4,
     "prettier.printWidth": 140,
-    "prettier.useTabs": false,
+    "prettier.useTabs": true,
 
+    "python.pythonPath": "C:/Python38/python.exe",
     // python
     "python.linting.enabled": true,
     "python.setLinter": "flake8",
