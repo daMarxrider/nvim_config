@@ -102,7 +102,7 @@ Plug 'junegunn/fzf.vim'
   " Vim Wiki
    "Plug 'https://github.com/vimwiki/vimwiki.git'
       Plug 'othree/eregex.vim'
-      Plug 'puremourning/vimspector.vim'
+      Plug 'puremourning/vimspector'
   endif
 
 

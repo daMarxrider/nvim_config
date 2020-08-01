@@ -48,7 +48,8 @@
 	"python.linting.pylintEnabled": false,
 	"python.linting.flake8Enabled": true,
 	"python.linting.flake8Args": ["--config=C:/USERS/USER/.config/nvim/utils/flake8.json"],
-	"python.formatting.provider": "yapf",
+	//"python.formatting.provider": "yapf",
+	"python.formatting.provider": "autopep8",
 
 	// explorer
 	"explorer.width": 30,
